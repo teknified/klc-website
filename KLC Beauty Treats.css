@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat:repeat;
+}
+.ng{
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 580px;
+}
+.ngg{
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.start{
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-right: 30px;
+}
+.start img{
+    padding-left: 10px;
+    margin:10px 10px;
+}
+.company{
+    margin-top: 5px;
+}
+.input{
+    padding: 8px 120px;
+}
+.nav{
+    background: #fff;
+}
+.add{
+    color: #fff;
+    background: pink;
+    border: 1px solid pink;
+}
+.nav ul{
+    display: flex;
+    border-bottom: .1rem solid red;
+    border-top: .1rem solid red;
+}
+.nav ul li{
+    margin: 70px;
+    list-style-type: none;
+    text-decoration-line:none;
+}
+.ceo{
+    background: pink;
+    padding: 150px 10px;
+    font-size: larger;
+    font-weight: 200px;
+}
+.holder{
+    padding:8px 260px;
+    margin-right: 300px;
+    border: 1px solid gray;
+}
+legend h1{
+    text-align: center;
+}
+.perfume{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+.bold{
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.note{
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.perfumes, .wig, .bundles, .products{
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(4);
+    grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+    column-gap: 25px;
+    row-gap: 30px;
+    padding-left: 60px;
+    paadding-right: 60px;
+}
+.perfumes img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.toggle{
+    display: none;
+    top: .75rem;
+    left: 1rem;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle .bar{
+    height: 3px;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+}
+/*------------------form-----------*/
+.pink{
+    background: pink;
+    padding-left: 15px;
+    width: 7000px;
+    height: 120px;
+}
+.login{
+    background: #fff;
+    padding-bottom: 30px;
+}
+.mycart{
+    background: pink;
+    padding: 20px;
+    color: #fff;
+}
+
+.imgbag{
+    margin-top: 30PX;
+    margin-bottom: 20px;
+}
+.btnbag{
+    margin-top: 50px;
+    background: pink;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid pink;
+}
+.cart{
+    background-color: #fff;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+/* for mobile phones: */
+@media screen and (max-width:767px){
+    .toggle{
+        display: flex;
+    }
+    .nav{
+        display: none;
+    }
+    .perfume{
+        margin-right: 10px;
+    }
+    .ceo h1{
+        font-size: large;
+    }
+    .ng{
+        margin-right: 4000px;
+    }
+    .holder{
+        padding: 5px 38px
+    }
+    .cart{
+        margin-right: 300px;
+    }
+    .person{
+        margin-right: 5000px;
+    }
+    fieldset{
+        padding: 30px 10px;
+    }
+
+}

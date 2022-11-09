@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+/*---------------------navigation--------------*/
+.navbar{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar ul li:nth-child(1){
+    margin-left: 230px;
+    color: gold;
+}
+.navbar ul li:hover:nth-child(7){
+    color: #fff;
+    background: gold;
+}
+/*----------------------start--------------*/
+.start{
+    margin-left: 70px;
+    padding-top: 100px;
+    display: flex;
+}
+.start img{
+    margin-left: 200px;
+}
+.startbutton{
+    padding: 15px 30px;
+    font-weight: bolder;
+}
+h1{
+    color: gold;
+    font-weight:bolder;
+    font-size: 40px;
+}
+.paymentori{
+    background-color: #fff;
+}
+ h2{
+    color: gold;
+}
+ button{
+    background-color: gold;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gold;
+    margin-top: 15px;
+}
+.payment{
+    margin-bottom: 150px;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+/*----------------------images------------------------*/
+.large1, .large3, .large2{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.largeh2, .largeh3{
+    margin-top: 390px;
+}
+.large2{
+    justify-content: center;
+    text-align: center;
+}.large1 img{
+    margin-left: 65px;
+}
+.largeh1{
+    margin-left: 65px;
+    margin-top: 230px;
+}
+.large3{
+    margin-left: 80px;
+}
+.large2 img{
+    margin: 200px;
+}
+.largeh33, .largeh1{
+    justify-items: center;
+}
+.doless{
+    text-align: center;
+}
+.h2{
+    color: gold;
+    margin-bottom: 20px;
+}
+.h4{
+    margin-bottom: 10px;
+}
+.large3 img, .large2 img, .large3 img{
+    border-radius: 10px;
+}
+/*------------------testimonial------------*/
+.green{
+    background-color: lightgreen;
+    display: flex;
+    padding-bottom: 45px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.pic{
+    margin-left: 60px;
+}
+.green img{
+    margin-top: 10px;
+}
+.grid1,.grid2,.grid3{
+    margin-right: 100px;
+}
+/*----------------footer-------------*/
+.brown{
+    background-color: #333;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.brown ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: smaller;
+}
+.sub-brown{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.links,.help,.contact,.resources{
+    margin-left: 90px;
+}
+/*---------------frequently asked questions---------*/
+.questions ul li{
+    border-bottom: gray;
+    list-style-type:symbols(triangle) ;
+    margin-top: 10px;
+}
+.view{
+    display: flex;
+    background: white;
+}
+.yellow{
+    background-color: gold;
+}
+.subyellow{
+    padding: 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: white;
+}
+/*-------------------------news--------------------*/
+.questions{
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.news{
+    width: 90%;
+    background-color: pink;
+    border-radius: 5px;
+    border: 1px solid pink;
+    border-shadow:green ;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.news img{
+    margin-left: 35px;
+}
+.sales, .sales2{
+    display: flex;
+    margin-left: 90px;
+}
+.acceptance, .sell, .inventory, .support{
+    margin-left: 90px;
+    margin-bottom: 60px;
+}
+.multiple, .sell, .inventory{
+    margin-top: 40px;
+}
+.colorless{
+    padding-bottom: 110px;
+    padding-top: 45px;
+}
+.colorless h2,h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*------------------------------payment---------------*/
+.do{
+    background-color: gold;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    justify-items: center;
+    text-align: center;
+    text-size-adjust: 40px;
+    color: white;
+    display: flex;
+}
+.doless h4{
+    margin: 20px;
+    font-weight: bold;
+}
+.doh2{
+    color: #fff;
+    margin-left: 100px;
+}
+.dobutton{
+    background: white;
+    color: #000;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.input{
+    margin-left: 408px;
+    margin-top: 60px;
+}
+.inputmail{
+    padding-right: 355px;
+    padding-top: 10px;
+}
+.submit{
+    padding-top: 12px;
+}
+.h3input, .copyright{
+    text-align: center;
+}
+.h3res{
+    margin-left: 37px;
+}
+.copyright{
+    margin-top: 60px;
+}
+.number{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: px;
+    }
+}
