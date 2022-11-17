@@ -1,0 +1,17 @@
+
+.mycart{
+    background: pink;
+    padding: 20px;
+    color: white;
+}
+.imgbag{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btnbag{
+    margin-top: 50px;
+    background: pink;
+    color: white;
+    padding: 8px;
+    border: 1px solid pink;
+}

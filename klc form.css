@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: red; */
+    background-image: url(./klc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+}
+.pink{
+    position: fixed;
+    background: pink;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 50%;
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 270px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 15rem;
+    margin-top: 220px;
+    margin-left: 340px;
+    height: 330px;
+    width: 43rem;
+    margin-top: 110px;
+    background-color:#fff ;
+}
+.log{
+    padding: 6px 90px;
+    margin-top:10px;
+    margin-left: 190px;
+    padding-right:225px;
+    text-align: center;
+}
+.logg{
+    margin-left: 50px;
+}
+.place{
+    padding: 8px 60px;
+    margin-left: 190px;
+    margin-bottom: 12px;
+    padding-right: 59px;
+    padding-left: 128px;
+}
+.cover{
+    background-image: url(filterable\ img.html);
+    background-size: cover;
+    background-repeat: repeat;
+}

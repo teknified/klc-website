@@ -124,6 +124,17 @@ legend h1{
     padding-left: 15px;
     width: 7000px;
     height: 120px;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+
 }
 .login{
     background: #fff;
@@ -133,18 +144,6 @@ legend h1{
     background: pink;
     padding: 20px;
     color: #fff;
-}
-
-.imgbag{
-    margin-top: 30PX;
-    margin-bottom: 20px;
-}
-.btnbag{
-    margin-top: 50px;
-    background: pink;
-    color: #fff;
-    padding: 8px;
-    border: 1px solid pink;
 }
 .cart{
     background-color: #fff;
